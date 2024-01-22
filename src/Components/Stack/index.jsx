@@ -17,21 +17,21 @@ export default function Stack() {
   const imgJs = {
     width: '64px',
     height: '64px',
-    backgroundImage: 'url("../../../public/assets/js.png")',
+    backgroundImage: 'url("/assets/js.png")',
     backgroundSize: 'cover'
   }
 
   const imgTs = {
     width: '64px',
     height: '64px',
-    backgroundImage: 'url("../../../public/assets/ts.png")',
+    backgroundImage: 'url("/assets/ts.png")',
     backgroundSize: 'cover'
   }
 
   const imgReact = {
     width: '64px',
     height: '64px',
-    backgroundImage: 'url("../../../public/assets/react.png")',
+    backgroundImage: 'url("/assets/react.png")',
     backgroundSize: 'cover'
   }
 
