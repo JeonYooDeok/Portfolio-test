@@ -27,6 +27,13 @@ export default function Main() {
     marginBottom: '240px'
   }
 
+  const profile = {
+    width: '480px',
+    height: '720px',
+    backgroundImage: 'url("../../../public/profile.png")',
+    backgroundSize: 'cover'
+  }
+
   return (
     <>
       <div style={horizontal}>
@@ -35,7 +42,7 @@ export default function Main() {
           <p style={titleIndent}>DEVELOPER</p>
           <p style={description}>사용자 친화적인 웹프로덕트를 위해 늘 고민하는 프론트엔드 개발자 전유덕입니다.</p>
         </div>
-        <img src="../../../public/profile.png" alt="profile" />
+        <div style={profile}></div>
       </div>
     </>
   )
