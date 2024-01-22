@@ -30,7 +30,7 @@ export default function Main() {
   const profile = {
     width: '480px',
     height: '720px',
-    backgroundImage: 'url("../../../src/assets/profile.png")',
+    backgroundImage: 'url("../../../public/assets/profile.png")',
     backgroundSize: 'cover'
   }
 
